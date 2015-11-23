@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CustonButton.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    CustonButton *button = [[CustonButton alloc]initWithFrame:CGRectMake(100, 100, 60, 85)];
+    [self.view addSubview:button];
 }
 
 - (void)didReceiveMemoryWarning {

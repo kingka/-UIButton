@@ -14,6 +14,7 @@
 		F92FCDAE1BA6A4460096D212 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92FCDAD1BA6A4460096D212 /* Images.xcassets */; };
 		F92FCDB11BA6A4460096D212 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92FCDAF1BA6A4460096D212 /* LaunchScreen.xib */; };
 		F92FCDBD1BA6A4460096D212 /* ___UIButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F92FCDBC1BA6A4460096D212 /* ___UIButtonTests.m */; };
+		F92FCDC81BA6A4A30096D212 /* CustonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F92FCDC71BA6A4A30096D212 /* CustonButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F92FCDB61BA6A4460096D212 /* 自定义UIButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义UIButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92FCDBB1BA6A4460096D212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F92FCDBC1BA6A4460096D212 /* ___UIButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UIButtonTests.m"; sourceTree = "<group>"; };
+		F92FCDC61BA6A4A30096D212 /* CustonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustonButton.h; sourceTree = "<group>"; };
+		F92FCDC71BA6A4A30096D212 /* CustonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustonButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				F92FCDAD1BA6A4460096D212 /* Images.xcassets */,
 				F92FCDAF1BA6A4460096D212 /* LaunchScreen.xib */,
 				F92FCDA01BA6A4460096D212 /* Supporting Files */,
+				F92FCDC61BA6A4A30096D212 /* CustonButton.h */,
+				F92FCDC71BA6A4A30096D212 /* CustonButton.m */,
 			);
 			path = "自定义UIButton";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F92FCDA91BA6A4460096D212 /* ViewController.m in Sources */,
+				F92FCDC81BA6A4A30096D212 /* CustonButton.m in Sources */,
 				F92FCDA61BA6A4460096D212 /* AppDelegate.m in Sources */,
 				F92FCDA31BA6A4460096D212 /* main.m in Sources */,
 			);
